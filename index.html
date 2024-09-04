@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="background-color: brown;">
+    <form action="http://127.0.0.1:3000/html%20files/forms%20extension.html" method="post">
+        <fieldset>
+            <legend style="text-decoration: underline;">Registration Form</legend>
+            
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" placeholder="Lokesh"><br><br>
+
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname" placeholder="Ch"><br><br>
+
+            <label for="age">Age</label>
+            <input type="tel" id="age" name="age" placeholder="22"><br><br>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="XXXXXXXXX"><br><br>
+
+            <label for="dob">DOB</label>
+            <input type="datetime-local" id="dob" name="dob"><br><br>
+
+            <p>Gender:</p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female"><br><br>
+            <label for="file"> Choose Your File:</label>
+            <input type="file" name="file" id="file" accept=".pdf,.docx,.jpg,.png"><br><br>
+
+            <label for="pan">PAN</label>
+            <input type="text" id="pan" name="pan" placeholder="PANXXXXX"><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="lokesh@gmail.com"><br><br>
+
+            <label for="password">Create new password</label>
+            <input type="password" id="password" name="password" placeholder="Lokesh123" required><br><br>
+
+            <input type="checkbox" id="confirm" name="confirm">
+            <label for="confirm">The above details are correct</label><br><br>
+
+            <input type="submit" value="Click here for registration">
+        </fieldset>
+    </form>
+</body>
+</html>
